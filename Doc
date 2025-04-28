@@ -1,0 +1,71 @@
+📈 Investment Growth Tracker
+This project is a Streamlit web application that allows users to compare different investment strategies (weekly, monthly, quarterly) for any stock of their choice.
+It simulates how a lump sum investment compares to periodic investments over time and visualizes the growth.
+
+ Features
+📅 User Inputs:
+
+1.Stock symbol (e.g., AAPL, MSFT, VOO)
+2.Investment amount (lump sum or periodic)
+3.Start date for investment
+4.Investment frequency: Weekly, Monthly, or Quarterly
+
+📈 Performance Simulation:
+
+1.Simulates investment growth using historical stock data from Yahoo Finance (yfinance).
+2.Calculates current value, profit/loss amount, and profit/loss percentage.
+
+📊 Interactive Visualizations:
+
+1.Displays results with dynamic line charts comparing Lump Sum vs Periodic Investment strategies.
+
+📑 Summary Statistics:
+
+1.Breaks down the investment results clearly, showing:
+2.Initial/Total investment amount
+3.Shares bought
+4.Current value
+5.Profit/Loss both in $ amount and % percentage
+
+🖥️ Clean and Responsive UI:
+
+Built with Streamlit for a smooth and user-friendly experience.
+
+How to Run Locally
+
+1.Clone the Repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/investment-growth-tracker.git
+cd investment-growth-tracker
+
+2. Install Required Packages:
+bash
+pip install -r requirements.txt
+
+3. Run the App:streamlit run stock_investment_comparison_app.py
+
+📂 Project Structure
+investment-growth-tracker/
+│
+├── stock_investment_comparison_app.py   # Main Streamlit app
+├── requirements.txt                     # Required Python packages
+└── README.md                             # Project documentation (this file)
+
+Requirements:
+1.streamlit
+2.yfinance
+3.matplotlib
+4.pytz
+5.pandas (optional but recommended)
+
+Install all dependencies easily using:
+bash
+pip install -r requirements.txt
+
+🧑‍💻 Author:
+Priya Dambal
+linkedin.com/in/priya-dambal
+
